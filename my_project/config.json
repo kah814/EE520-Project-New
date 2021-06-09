@@ -1,0 +1,162 @@
+{
+
+    "name": "Robot World",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "agents": [
+        {
+            "definition": "defs/leader.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": 200, 
+                "y": -150, 
+                "theta": 0
+            }
+        },
+        
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": 50, 
+                "y": -150, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/followfollower.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": -100, 
+                "y": -150, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/followfollower.json",
+            "style": { "fill": "green", "stroke": "black" },
+            "position": {
+                "x": -150, 
+                "y": -150, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": -200, 
+                "y": -70, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": -150, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": 200, 
+                "y": -150, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": 230, 
+                "y": 170, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": -50, 
+                "y": 130, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": -10, 
+                "y": -10, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/block.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": 60, 
+                "y": 20, 
+                "theta": 0
+            }
+        }
+         
+         
+
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }       
+
+    ]
+
+}
