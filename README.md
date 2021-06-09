@@ -1,4 +1,4 @@
-# EE520 Spring 2021 - Kenneth Hurt - Final Project 
+# EEP-520 Spring 2021 - Kenneth Hurt - Final Project 
 This document summarizes the scope of the UW EE-520 end-of-quarter project. The project used the _Enviro_ environment, which runs off the _ELMA_ event manager. These environments are the product of UW and the Klavins Lab.
 
 # Project Description
