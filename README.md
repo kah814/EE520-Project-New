@@ -26,10 +26,12 @@ Keeping the followers from getting 'stuck' crashing into each other was one fina
 
 # Running the Code and Using the Project:
 
-1. Download the entire _520-Project-New_ folder from github using the _git pull_ in the terminal window.
-2. Lauch the _Enviro_ container in Docker using the following command: 
+1. Download the entire _520-Project-New_ folder from github using the _git pull_ in the terminal window. Pull the folder into your local user folder.
+2. Lauch the _Enviro_ container in Windows Power Shell using the following command: 
  
-_docker run -p80:80 -p8765:8765 -v c/Users/_username_/520-Project-New:/source -it klavins/enviro:alpha bash_
+docker run -p80:80 -p8765:8765 -v c/Users/_username_/520-Project-New:/source -it klavins/enviro:alpha bash
+
+*note - use your own local username and folder location.
 
 2. Start _Enviro_ by using: _esm start_
 3. Activate the MakeFile using the command: _make_
