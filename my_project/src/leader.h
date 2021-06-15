@@ -82,7 +82,7 @@ namespace {
 
 
 
-    DECLARE_INTERFACE(LEADER);
+    DECLARE_INTERFACE(Wanderer);
 
 }
 

@@ -1,7 +1,7 @@
 {
-    "name": "Wanderer",
+    "name": "Leader",
     "type": "dynamic",
-    "description": "A Wandering Robot",
+    "description": "A Leading Robot",
     "shape": [
         { "x": -10, "y": 10 },
         { "x": 10, "y": 10 },
