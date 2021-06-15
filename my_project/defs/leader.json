@@ -44,5 +44,5 @@
         }                        
     ],
     "mass": 0.25,
-    "controller": "lib/wanderer.so"
+    "controller": "lib/leader.so"
 }
